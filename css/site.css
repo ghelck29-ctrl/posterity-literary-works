@@ -278,3 +278,10 @@ body{background:var(--paper);color:var(--ink)}
 .hero .ttl{white-space:nowrap}
 .cover .s{white-space:nowrap}
 @media (max-width:380px){.hero .ttl{letter-spacing:.34em;gap:12px}}
+
+/* ---------- v6: Concordia in Deo, four arrows (Nov 2026) ---------- */
+.cl .concord{margin-top:0}
+.cl .concord::after{display:none}
+.cl .cmotto{font-size:13px;letter-spacing:.18em;line-height:1.85}
+.cl .arrows4{width:96px;height:auto;display:block;margin:18px auto 0}
+@media (min-width:600px){.cl .cmotto{font-size:14px;letter-spacing:.2em}.cl .arrows4{width:108px}}
