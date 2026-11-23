@@ -272,7 +272,7 @@ body{background:var(--paper);color:var(--ink)}
 .cl .concord::before{content:"";display:block;width:36px;height:1px;background:var(--garnet);margin:0 auto 22px}
 .cl .cmotto{font:400 11px/1.9 'Cinzel',serif;letter-spacing:.16em;text-transform:uppercase;color:var(--goldlt);text-align:center;padding-inline:8px;max-width:none;margin:0}
 .cl .cmotto span{display:block}
-.cl .arrows{width:44px;height:auto;display:block;margin:22px auto 0}
+.cl .arrows{width:50px;height:auto;display:block;margin:0 auto}
 @media (min-width:600px){.cl .cmotto{font-size:12px;letter-spacing:.2em}}
 /* keep the book title on one line */
 .hero .ttl{white-space:nowrap}
