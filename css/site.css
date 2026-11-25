@@ -283,5 +283,5 @@ body{background:var(--paper);color:var(--ink)}
 .cl .concord{margin-top:0}
 .cl .concord::after{display:none}
 .cl .cmotto{font-size:13px;letter-spacing:.18em;line-height:1.85}
-.cl .seal2{width:180px;height:auto;display:block;margin:18px auto 0}
+.cl .seal2{width:180px;height:auto;display:block;margin:0 auto}
 @media (min-width:600px){.cl .cmotto{font-size:14px;letter-spacing:.2em}.cl .seal2{width:200px}}
