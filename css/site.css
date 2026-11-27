@@ -285,3 +285,8 @@ body{background:var(--paper);color:var(--ink)}
 .cl .cmotto{font-size:13px;letter-spacing:.18em;line-height:1.85}
 .cl .seal2{width:180px;height:auto;display:block;margin:0 auto}
 @media (min-width:600px){.cl .cmotto{font-size:14px;letter-spacing:.2em}.cl .seal2{width:200px}}
+
+/* five principles: 2+2+1 on tablet, 3+2 on desktop, last row centred */
+@media (min-width:700px){.cards{grid-template-columns:repeat(4,minmax(0,1fr))}.card{grid-column:span 2}.card:nth-child(5){grid-column:2/4}}
+@media (min-width:980px){.cards{grid-template-columns:repeat(6,minmax(0,1fr))}.card{grid-column:span 2}.card:nth-child(4){grid-column:2/4}.card:nth-child(5){grid-column:4/6}}
+.js .rv.d4{transition-delay:.48s}
